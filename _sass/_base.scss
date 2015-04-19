@@ -2,8 +2,8 @@ $base-font: "Asap", sans-serif;
 $heading-font: "Asap", sans-serif;
 $font-size: 18px;
 $text-color: #333;
-$theme-color: #50a02f;
-$dark-color: #222;
+$theme-color: #0072bc;
+$dark-color: #0054a6;
 
 html {
     height: 100%;
@@ -80,7 +80,7 @@ a {
 code {
     display: inline-block;
     color: #111;
-    background: lighten($theme-color, 50%);
+    background: lighten($theme-color, 56%);
     font-size: 0.9em;
     padding: 0 5px;
 }
@@ -88,7 +88,7 @@ pre {
     font-size: $font-size;
     color: $dark-color;
     border: 0;
-    border-left: 4px solid darken($theme-color, 10%);
+    border-left: 4px solid $theme-color;
     background: lighten($theme-color, 50%);
     border-radius: 0;
     word-break: normal;
