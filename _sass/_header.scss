@@ -24,29 +24,18 @@
             max-width: 500px;
             color: lighten($theme-color, 50%);
         }
+    }
+}
 
-        .main-menu {
-            list-style: none;
+.main-menu {
+    li {
+        a {
             margin: 0;
-            padding: 0;
-            li {
-                display: inline-block;
-                a {
-                    margin: 0;
-                    color:#fff;
-                    padding-bottom: 2px;
-                    border-bottom:1px solid transparent;
-                    &:hover {
-                        border-color: #fff;
-                    }
-                }
-            }
-            li.menu-separator {
-                &:before {
-                    content: "/";
-                    margin: 0 5px;
-                    color: lighten($theme-color, 50%);
-                }
+            color:#fff;
+            padding-bottom: 2px;
+            border-bottom:1px solid transparent;
+            &:hover {
+                border-color: #fff;
             }
         }
     }

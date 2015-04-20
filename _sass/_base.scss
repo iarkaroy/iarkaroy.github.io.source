@@ -158,3 +158,19 @@ pre {
     -webkit-border-radius: 3px;
     -ms-border-radius: 3px;
 }
+
+.list-inline {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li {
+        display: inline-block;
+    }
+    li.menu-separator {
+        &:before {
+            content: "/";
+            margin: 0 5px;
+            color: lighten($theme-color, 50%);
+        }
+    }
+}

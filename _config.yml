@@ -11,15 +11,15 @@ permalink: /:categories/:title/
 author:
     name: "Arka Roy"
     email: "i.arkaroy@gmail.com"
-    website: "http://www.arkaroy.net"
+    website: "http://www.arkaroy.net/"
     facebook: iarkaroy
     twitter: iarkaroy
-    behance:  iarkaroy
-    github:  iarkaroy
+    behance: iarkaroy
+    github: iarkaroy
     googleplus: ArkaRoyGPlus
     linkedin: iarkaroy
 img: /assets/image/
-lastmod: 2015-04-15T23:12:14+05:30
+#lastmod: 2015-04-15T23:12:14+05:30
 
 # Build settings
 #markdown: kramdown

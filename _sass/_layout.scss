@@ -40,6 +40,26 @@
     vertical-align: middle;
 }
 
+.full-container-404 {
+    background-color: $theme-color;
+    padding: 2em;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+    text-align: center;
+    color: #fff;
+    font-size: 0.9em;
+    h1 {
+        font-size: 6em;
+        margin: 0;
+    }
+    p {
+        color: lighten($theme-color, 50%);
+    }
+}
+
 @media screen and (min-width: 1025px) {
     .page-header {
         width: 40%;

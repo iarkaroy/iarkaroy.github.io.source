@@ -10,4 +10,10 @@ footer {
             color: #666;
         }
     }
+    .menu-separator {
+        &:before {
+            color: #aaa !important;
+            margin: 0 2px !important;
+        }
+    }
 }
