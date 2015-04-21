@@ -10,7 +10,6 @@
 @import "fontawesome";
 @import "header";
 @import "footer";
-@import "selection";
 
 .social-media-links {
     a {
@@ -127,3 +126,5 @@
     padding: 60px 15px;
     display: none;
 }
+
+@import "print";

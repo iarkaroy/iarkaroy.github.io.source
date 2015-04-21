@@ -89,16 +89,16 @@ pre {
     color: $dark-color;
     border: 0;
     border-left: 4px solid $theme-color;
-    background: lighten($theme-color, 50%);
+    background: lighten($theme-color, 56%);
     border-radius: 0;
     word-break: normal;
     word-wrap: normal;
     padding: 10px;
 
     code {
-        white-space: pre;
         background: none;
         color: #111;
+        padding: 0;
     }
 }
 
