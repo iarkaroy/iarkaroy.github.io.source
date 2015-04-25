@@ -27,3 +27,6 @@ img: /assets/image/
 sass:
     sass_dir: _sass
     style: :compressed
+    
+paginated_category: "blog"
+posts_per_page: 20

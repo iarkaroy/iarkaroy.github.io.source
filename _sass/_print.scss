@@ -1,6 +1,6 @@
 @media only print {
     body {
-        * {
+        *, *:before, *:after {
             color: #000 !important;
             background-color: #fff !important;
         }

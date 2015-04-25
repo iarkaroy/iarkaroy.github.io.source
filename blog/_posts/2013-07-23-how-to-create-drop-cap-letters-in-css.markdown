@@ -12,7 +12,7 @@ CSS allows you to add a property `:first-letter` which as you can guess allows y
 
 Consider this paragraph:
 
-    <p>orem ipsum dolor sit amet, consectetur adipiscing elit. Ut in metus nec mauris egestas laoreet. Integer vehicula velit non massa suscipit at porta sem commodo. Donec nibh lectus, vulputate a aliquet quis, sollicitudin eget metus. Nullam quis tellus nibh. Praesent fermentum risus sit amet turpis eleifend dapibus. Duis tellus leo, tempor sit amet ultricies viverra, mollis at quam. Suspendisse hendrerit sagittis risus nec faucibus. Nam urna magna, porta vitae tincidunt sit amet, blandit eget diam. Vivamus a ornare augue. Vivamus sapien sem, facilisis vitae molestie eget, tempus ut augue. Sed suscipit facilisis mi, eu laoreet est gravida eu. Nulla et arcu quam, pellentesque adipiscing felis. Nam pretium augue sed sapien malesuada tempor. Nulla facilisi. Donec eu tempor mi.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in metus nec mauris egestas laoreet. Integer vehicula velit non massa suscipit at porta sem commodo. Donec nibh lectus, vulputate a aliquet quis, sollicitudin eget metus. Nullam quis tellus nibh. Praesent fermentum risus sit amet turpis eleifend dapibus. Duis tellus leo, tempor sit amet ultricies viverra, mollis at quam. Suspendisse hendrerit sagittis risus nec faucibus. Nam urna magna, porta vitae tincidunt sit amet, blandit eget diam. Vivamus a ornare augue. Vivamus sapien sem, facilisis vitae molestie eget, tempus ut augue. Sed suscipit facilisis mi, eu laoreet est gravida eu. Nulla et arcu quam, pellentesque adipiscing felis. Nam pretium augue sed sapien malesuada tempor. Nulla facilisi. Donec eu tempor mi.</p>
 
 We can add the drop cap style to the paragraph using `:first-letter`
 

@@ -13,4 +13,13 @@ layout: default
 
 {% include social-share.html %}
 
+<br>
 
+<div class="posts-nav-links clearfix">
+    {% if page.next_in_category != nil %}
+    <a class="pull-left" href="{{page.next_in_category.url}}" class="next-post-link" title="{{page.next_in_category.title}}"><i class="fa fa-chevron-left fa-fw"></i></a>
+    {% endif %}
+    {% if page.previous_in_category != nil %}
+    <a class="pull-right" href="{{page.previous_in_category.url}}" class="previous-post-link" title="{{page.previous_in_category.title}}"><i class="fa fa-chevron-right fa-fw"></i></a>
+    {% endif %}
+</div>
