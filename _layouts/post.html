@@ -2,14 +2,23 @@
 layout: default
 ---
 
-<header class="entry-header">
-    <h1 class="entry-title">{{ page.title }}</h1>
-    <p class="entry-meta"><em>{{ page.date | date: "%b %-d, %Y" }} by {{ site.author.name }}</em></p>
-</header>
+<div class="entry post-entry single">
 
-<article class="entry-content">
-    {{ content }}
-</article>
+    <header class="entry-header">
+        <h1 class="entry-title">{{ page.title }}</h1>
+        <p class="entry-meta"><em>{{ page.date | date: "%b %-d, %Y" }} by {{ site.author.name }}</em></p>
+        {% if page.thumbnail %}
+        <img src="{{ site.url }}{{ site.img }}{{ page.thumbnail }}.jpg" alt="{{ page.title }}" class="entry-thumbnail">
+        {% else %}
+        <br>
+        {% endif %}
+    </header>
+
+    <article class="entry-content">
+        {{ content }}
+    </article>
+    
+</div>
 
 {% include social-share.html %}
 

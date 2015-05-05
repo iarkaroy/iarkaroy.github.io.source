@@ -1,10 +1,12 @@
 ---
 title: "Drop Cap Letters in CSS"
 layout: post
+excerpt: In this tutorial we will use CSS3 to create Drop Cap, a traditional newspaper technique of making the first letter of a paragraph capital and take the height of three or four lines. In that way, it is easier to grab the attention of the reader and specify the start of a section.
+thumbnail: 20130723-thumbnail
 ---
 Drop Cap is a traditional newspaper technique of making the first letter of a paragraph capital and take the height of three or four lines. In that way, it is easier to grab the attention of the reader and specify the start of a section.
 
-Now we are going to implement that style in our css using a new CSS3 technique.
+In this tutorial we are going to implement that style in our css using a new CSS3 technique.
 
 ## CSS First Letter
 

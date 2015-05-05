@@ -1,5 +1,16 @@
 .entry-meta {
     margin-top: 20px;
-    margin-bottom: 60px;
     color: #aaa;
+}
+
+.index .entry-meta {
+    margin-bottom: 60px;
+}
+
+.single .entry-meta {
+    margin-bottom: 20px;
+}
+
+.entry-thumbnail {
+    margin-bottom: 30px;
 }

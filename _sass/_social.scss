@@ -1,0 +1,139 @@
+$facebook: #3b5998;
+$twitter: #55acee;
+$googleplus: #dd4b39;
+$linkedin: #0976b4;
+$pinterest: #cc2127;
+$stumbleupon: #eb4924;
+$delicious: #3399ff;
+$reddit: #ff4500;
+$buffer: #323b43;
+
+.social-share {
+    margin: 20px 0;
+    a {
+        display: inline-block;
+        min-width: 100px;
+        background-color: #ccc;
+        padding: 6px;
+        color: #fff;
+        margin-right:8px;
+        &:hover, &:active, &:focus {
+            color: #fff;
+        }
+    }
+}
+
+.social-popularity-analyzer-results {
+    display: none;
+}
+
+.facebook {
+    background-color: $facebook !important;
+}
+.facebook-border {
+    border-color: $facebook !important;
+}
+.twitter {
+    background-color: $twitter !important;
+}
+.twitter-border {
+    border-color: $twitter !important;
+}
+.googleplus {
+    background-color: $googleplus !important;
+}
+.googleplus-border {
+    border-color: $googleplus !important;
+}
+.linkedin {
+    background-color: $linkedin !important;
+}
+.linkedin-border {
+    border-color: $linkedin !important;
+}
+.pinterest {
+    background-color: $pinterest !important;
+}
+.pinterest-border {
+    border-color: $pinterest !important;
+}
+.stumbleupon {
+    background-color: $stumbleupon !important;
+}
+.stumbleupon-border {
+    border-color: $stumbleupon !important;
+}
+.delicious {
+    background-color: $delicious !important;
+}
+.delicious-border {
+    border-color: $delicious !important;
+}
+.reddit {
+    background-color: $reddit !important;
+}
+.reddit-border {
+    border-color: $reddit !important;
+}
+.buffer {
+    background-color: $buffer !important;
+}
+.buffer-border {
+    border-color: $buffer !important;
+}
+
+
+
+.social-popularity-analyzer-form label,
+.social-popularity-analyzer-form input,
+.social-popularity-analyzer-form button {
+    display: block;
+    float: left;
+    line-height: 1.4;
+    padding: 8px;
+    border: 1px solid black;
+}
+.social-popularity-analyzer-form label {
+    width:44px;
+    background-color: #eee;
+    border-color: #aaa;
+    color: #999;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.social-popularity-analyzer-form input {
+    text-align: left;
+    border-left: 0;
+    border-right: 0;
+    border-color: #aaa;
+    width: calc(100% - 184px);
+}
+.social-popularity-analyzer-form button {
+    width: 140px;
+    color: #fff;
+    background-color: $theme-color;
+    border-color: $dark-color;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    &:hover, &:focus, &:active, &.busy {
+        background-color: $dark-color;
+    }
+}
+.social-popularity-analyzer-form label,
+.social-popularity-analyzer-form button {
+    text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+    .social-popularity-analyzer-form {
+        button {
+            span {
+                display: none;
+            }
+            width: 48px;
+        }
+        input {
+            width: calc(100% - 92px);
+        }
+    }
+}

@@ -71,30 +71,8 @@
     padding: 0;
 }
 
-.social-share {
-    margin-top: 40px;
-    a {
-        display: inline-block;
-        margin: 5px;
-        background-color: $theme-color;
-        color: #fff;
-        font-size: 20px;
-        width: 40px;
-        text-align: center;
-        border:2px solid $theme-color;
-        i {
-            display:inline-block;
-            line-height:36px;
-        }
-        &:hover {
-            background-color: #fff;
-            color: $theme-color;
-        }
-    }
-}
-
-.contact-form input,
-.contact-form textarea {
+.form input,
+.form textarea {
     display: block;
     padding: 6px 10px;
     background-color: #fff;
@@ -103,22 +81,22 @@
     margin-bottom:20px;
     @extend .rounded;
 }
-.contact-form input:hover,
-.contact-form textarea:hover {
+.form input:hover,
+.form textarea:hover {
     border-color: #aaa;
 }
-.contact-form input:focus,
-.contact-form input:active,
-.contact-form textarea:focus,
-.contact-form textarea:active {
-    border-color: #50a02f;
+.form input:focus,
+.form input:active,
+.form textarea:focus,
+.form textarea:active {
+    border-color: $theme-color;
     outline: 0;
 }
-.contact-form button:hover,
-.contact-form button:active {
+.form button:hover,
+.form button:active {
     outline: 0;
 }
-.contact-form input.error {
+.form input.error {
     border-color: #a00;
 }
 .form-sending,
@@ -126,5 +104,27 @@
     padding: 60px 15px;
     display: none;
 }
+
+.spa-result {
+    margin-top:20px;
+    border:1px solid #ccc;
+    label {
+        display:block;
+    }
+    .header {
+        padding:2px 20px;
+        h5 {
+            color: #fff;
+            i {
+                float:right;
+            }
+        }
+    }
+    .body {
+        padding: 20px;
+    }
+}
+
+@import "social";
 
 @import "print";

@@ -26,7 +26,7 @@ module Jekyll
                 'next_page' => next_page
             }
             self.content = <<-EOS
-<h1>Blog{% if page.current_page > 1 %} <small>Page {{ page.current_page }}</small>{% endif %}</h1>
+<h1>Blog</h1>
 <h5>Sharing some of my ideas.</h5>
 
 <br><br>

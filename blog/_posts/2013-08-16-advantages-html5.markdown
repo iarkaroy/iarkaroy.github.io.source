@@ -1,6 +1,8 @@
 ---
 title: "Advantages of HTML5"
 layout: post
+excerpt: HTML5 is the new definition of web designing. It has been designed to replace both HTML 4, XHTML, and the HTML DOM Level 2. HTML5 is specially designed to deliver rich content without the need for additional plugins. The current version delivers everything from animation to graphics, music to movies, and can also be used to build complicated web applications. HTML5 is also cross-platform. It is designed to work whether you are using a PC, or a Tablet, a Smartphone, or a Smart TV.
+thumbnail: 20130816-thumbnail
 ---
 HTML5 is the new definition of web designing. It has been designed to replace both HTML 4, XHTML, and the HTML DOM Level 2. HTML5 is specially designed to deliver rich content without the need for additional plugins. The current version delivers everything from animation to graphics, music to movies, and can also be used to build complicated web applications. HTML5 is also cross-platform. It is designed to work whether you are using a PC, or a Tablet, a Smartphone, or a Smart TV.
 
