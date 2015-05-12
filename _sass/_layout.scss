@@ -10,7 +10,6 @@
     width: 100%;
     background-color: $theme-color;
     padding: 2em;
-    font-size: 0.9em;
 }
 
 .page-header.home {
@@ -62,13 +61,13 @@
 
 @media screen and (min-width: 1025px) {
     .page-header {
-        width: 40%;
+        width: 32%;
         background-color: $theme-color;
         height: 100%;
         position: fixed;
         top: 0;
         left: 0;
-        padding: 2em;
+        padding: 1em;
     }
 
     .page-header.home {
@@ -76,14 +75,14 @@
     }
 
     .page-content {
-        width: 60%;
-        margin-left: 40%;
+        width: 68%;
+        margin-left: 32%;
         padding: 2em;
     }
 }
 
 @media screen and (max-width: 768px) {
     .page-header, .page-content {
-        padding: 0.8em;
+        padding: $phi*0.5em;
     }
 }

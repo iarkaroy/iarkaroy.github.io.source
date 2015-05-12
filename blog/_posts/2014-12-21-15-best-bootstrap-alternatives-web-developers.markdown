@@ -1,6 +1,7 @@
 ---
 title: "15 Best Bootstrap Alternatives for Web Developers"
 layout: post
+thumbnail: 20141221-thumbnail
 ---
 You have probably heard a lot about Bootstrap (aka Twiter Bootstrap). With this framework you can build a well structured, maintainable and up-gradable website. It also helps you save much on your time because there are plenty of readily available elements that you can use.
 

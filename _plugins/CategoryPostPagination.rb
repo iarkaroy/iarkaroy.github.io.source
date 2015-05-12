@@ -27,15 +27,15 @@ module Jekyll
             }
             self.content = <<-EOS
 <h1>Blog</h1>
-<h5>Sharing some of my ideas.</h5>
+<h4>Sharing some of my ideas.</h4>
 
 <br><br>
 
 {% for post in page.current_posts %}
 <article class="entry post-entry index">
-    <h3 class="entry-title">
+    <h2 class="entry-title">
         <a href="{{ post.url | prepend: site.base_url | prepend: site.url }}" title="Read more on {{ post.title }}" rel="bookmark">{{ post.title }}</a>
-    </h3>
+    </h2>
     <div class="entry-excerpt">
         {{ post.excerpt }}
     </div>

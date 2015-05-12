@@ -7,8 +7,10 @@ layout: default
     <header class="entry-header">
         <h1 class="entry-title">{{ page.title }}</h1>
         <p class="entry-meta"><em>{{ page.date | date: "%b %-d, %Y" }} by {{ site.author.name }}</em></p>
+        {% include social-share.html %}
         {% if page.thumbnail %}
         <img src="{{ site.url }}{{ site.img }}{{ page.thumbnail }}.jpg" alt="{{ page.title }}" class="entry-thumbnail">
+        {% include social-share.html %}
         {% else %}
         <br>
         {% endif %}
@@ -26,9 +28,15 @@ layout: default
 
 <div class="posts-nav-links clearfix">
     {% if page.next_in_category != nil %}
-    <a class="pull-left" href="{{page.next_in_category.url}}" class="next-post-link" title="{{page.next_in_category.title}}"><i class="fa fa-chevron-left fa-fw"></i></a>
+    <a href="{{page.next_in_category.url}}" class="next-post-link" title="{{page.next_in_category.title}}">
+        <h4>Previous Post</h4>
+        <h5>{{page.next_in_category.title}}</h5>
+    </a>
     {% endif %}
     {% if page.previous_in_category != nil %}
-    <a class="pull-right" href="{{page.previous_in_category.url}}" class="previous-post-link" title="{{page.previous_in_category.title}}"><i class="fa fa-chevron-right fa-fw"></i></a>
+    <a href="{{page.previous_in_category.url}}" class="previous-post-link" title="{{page.previous_in_category.title}}">
+        <h4>Next Post</h4>
+        <h5>{{page.previous_in_category.title}}</h5>
+    </a>
     {% endif %}
 </div>

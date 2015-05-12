@@ -1,6 +1,7 @@
 ---
 title: "8 Icon Fonts to speed up Website Design Process"
 layout: post
+thumbnail: 20141012-thumbnail
 ---
 
 Icon Fonts are nothing but fonts. But, instead of containing letters or numbers, they contain symbols and shapes. You can style them with CSS in the same way you style regular text which has made them a popular choice on the web in the process designing and developing websites and web applications.

@@ -9,17 +9,32 @@ $reddit: #ff4500;
 $buffer: #323b43;
 
 .social-share {
-    margin: 20px 0;
+    margin: 30px 0;
     a {
-        display: inline-block;
-        min-width: 100px;
+        display: block;
+        float: left;
         background-color: #ccc;
-        padding: 6px;
         color: #fff;
-        margin-right:8px;
+        margin-right:10px;
+        i, span {
+            line-height: 40px;
+            display:block;
+            float: left;
+            height: 40px;
+            padding: 0 8px;
+            text-align: center;
+        }
+        i {
+            font-size: 24*$px;
+            min-width: 40px;
+        }
+        span {
+            min-width: 48px;
+        }
         &:hover, &:active, &:focus {
             color: #fff;
         }
+        @extend .clearfix;
     }
 }
 
@@ -29,54 +44,81 @@ $buffer: #323b43;
 
 .facebook {
     background-color: $facebook !important;
+    span {
+        background-color: darken($facebook, 10%);
+    }
 }
 .facebook-border {
     border-color: $facebook !important;
 }
 .twitter {
     background-color: $twitter !important;
+    span {
+        background-color: darken($twitter, 10%);
+    }
 }
 .twitter-border {
     border-color: $twitter !important;
 }
 .googleplus {
     background-color: $googleplus !important;
+    span {
+        background-color: darken($googleplus, 10%);
+    }
 }
 .googleplus-border {
     border-color: $googleplus !important;
 }
 .linkedin {
     background-color: $linkedin !important;
+    span {
+        background-color: darken($linkedin, 10%);
+    }
 }
 .linkedin-border {
     border-color: $linkedin !important;
 }
 .pinterest {
     background-color: $pinterest !important;
+    span {
+        background-color: darken($pinterest, 10%);
+    }
 }
 .pinterest-border {
     border-color: $pinterest !important;
 }
 .stumbleupon {
     background-color: $stumbleupon !important;
+    span {
+        background-color: darken($stumbleupon, 10%);
+    }
 }
 .stumbleupon-border {
     border-color: $stumbleupon !important;
 }
 .delicious {
     background-color: $delicious !important;
+    span {
+        background-color: darken($delicious, 10%);
+    }
 }
 .delicious-border {
     border-color: $delicious !important;
 }
 .reddit {
     background-color: $reddit !important;
+    span {
+        background-color: darken($reddit, 10%);
+    }
 }
 .reddit-border {
     border-color: $reddit !important;
 }
 .buffer {
     background-color: $buffer !important;
+    span {
+        background-color: darken($buffer, 10%);
+    }
 }
 .buffer-border {
     border-color: $buffer !important;
