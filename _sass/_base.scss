@@ -1,11 +1,4 @@
-$phi: 1.618;
-$base-font: "PT Sans", sans-serif;
-$heading-font: "PT Sans", sans-serif;
-$font-size: 16;
-$px: (1 / $font-size) * 1rem;
-$text-color: #333;
-$theme-color: #0072bc;
-$dark-color: #0054a6;
+
 
 html {
     height: 100%;
@@ -37,10 +30,6 @@ h6 {
 h1 {
     font-size: 3rem;
     margin: 0.563em 0;
-}
-
-h1.text-big {
-    font-size: 2.2em;
 }
 
 h2 {
@@ -233,6 +222,12 @@ pre {
     }
 }
 
-b, strong {
-    font-weight: 600;
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
 }

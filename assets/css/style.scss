@@ -3,6 +3,7 @@
 ---
 
 @import "reset";
+@import "vars";
 @import "base";
 @import "layout";
 @import "entry";
@@ -13,32 +14,29 @@
 
 .social-media-links {
     a {
-        display: inline-block;
-        background-color: $theme-color;
+        display: block;
+        float: left;
+        background-color: #ccc;
         color: #fff;
-        line-height:30px;
-        border:2px solid $theme-color;
-        min-width:130px;
-        margin: 0 10px 10px 0;
+        margin-right:10px;
+        margin-bottom:10px;
         i {
-            width:30px;
-            text-align:center;
-            line-height:30px;
-            background:#fff;
-            color:$theme-color;
+            line-height: 40px;
+            display:block;
+            float: left;
+            height: 40px;
+            padding: 0 8px;
+            text-align: center;
+            font-size: 24*$px;
+            min-width: 40px;
         }
         span {
-            margin:0 10px 0 5px;
-            font-size:0.9em;
+            min-width: 48px;
         }
-        &:hover {
-            background-color: #fff;
-            color:$theme-color;
-            i {
-                color: #fff;
-                background-color: $theme-color;
-            }
+        &:hover, &:active, &:focus {
+            color: #fff;
         }
+        @extend .clearfix;
     }
 }
 
