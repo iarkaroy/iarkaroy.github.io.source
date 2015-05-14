@@ -1,6 +1,11 @@
 ---
 title: "Create a File Upload Class in PHP"
 layout: post
+tags:
+- php
+- security
+- upload
+- class
 ---
 The basic process of providing a HTML form for uploading user submitted files to the server with PHP is fairly easy and simple. But there are some security implications that many of us are unaware of. We will be building a custom PHP class for secure file upload. This class will check the type and size of the file and rename the file in case of duplication.
 

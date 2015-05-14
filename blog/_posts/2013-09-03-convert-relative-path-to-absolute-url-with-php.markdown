@@ -1,6 +1,11 @@
 ---
 title: "Convert Relative Path to Absolute URL with PHP"
 layout: post
+tags:
+- php
+- url
+- absolute-url
+- relative-path
 ---
 I was developing a Web Crawler with PHP. But whenever I was crawling a url to get the links from that url, I found that most of the websites use relative path to link to their internal pages. The browser is smart enough to convert those relative paths to absolute url and request the correct page whenever those relative paths are clicked. But, as it seems, PHP does not have any inbuilt support to convert those relative paths to absolute urls.
 

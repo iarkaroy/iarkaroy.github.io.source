@@ -1,6 +1,11 @@
 ---
 title: "How to use Zaq: Codeigniter Template Parser Engine"
 layout: post
+tags:
+- php
+- template-parser
+- codeigniter
+- library
 ---
 Zaq is a PHP based template parser engine developed to work with Codeigniter. This library has been developed for developers to integrate php codes in views easily. Using this library will also allow the view file to be more readable. View files in Codeigniter (or in any other framework following MVC) always contains both html and php codes which make them a bit harder to read. This problem can be eradicated by using a parser engine which makes the view files a lot more easier to work with.
 
@@ -57,7 +62,7 @@ Example:
 
     $this->zaq->parse( 'products/list', $data );
 
-There is no need to “echo” or do something with the data returned by `$this->zaq->parse()`. It is automatically passed to the output class to be sent to the browser. However, if you do want the data returned instead of sent to the output class you can pass TRUE (boolean) as the third parameter:
+There is no need to "echo" or do something with the data returned by `$this->zaq->parse()`. It is automatically passed to the output class to be sent to the browser. However, if you do want the data returned instead of sent to the output class you can pass TRUE (boolean) as the third parameter:
 
     $string = $this->zaq->parse('products/list', $data, TRUE);
 
@@ -190,7 +195,7 @@ There are several helper methods to ease the application development a bit more.
 
 `set_delimiter ( [ $left_delimiter = '{' [ , $right_delimiter = '}' ] ] )`:
 
-Sets the delimiters (opening and closing) for a pseudo-markup “tag” in a template.
+Sets the delimiters (opening and closing) for a pseudo-markup "tag" in a template.
 
 Parameters:
 

@@ -2,10 +2,14 @@
 title: "15 Best Bootstrap Alternatives for Web Developers"
 layout: post
 thumbnail: 20141221-thumbnail
+tags:
+- bootstrap
+- foundation
+- css-framework
 ---
 You have probably heard a lot about Bootstrap (aka Twiter Bootstrap). With this framework you can build a well structured, maintainable and up-gradable website. It also helps you save much on your time because there are plenty of readily available elements that you can use.
 
-Choosing the right framework that is the perfect fit for your projects could be a little bit overwhelming – there are a lot to choose from. Perhaps, you want to go with popular choices like [Bootstrap](http://getbootstrap.com/) or [Foundation](http://foundation.zurb.com/), but if your website is going to be a fairly simple one, you won’t be needing most of the building blocks and materials included in the default package.
+Choosing the right framework that is the perfect fit for your projects could be a little bit overwhelming - there are a lot to choose from. Perhaps, you want to go with popular choices like [Bootstrap](http://getbootstrap.com/) or [Foundation](http://foundation.zurb.com/), but if your website is going to be a fairly simple one, you won’t be needing most of the building blocks and materials included in the default package.
 
 The good news is that there are a handful of alternatives that are much leaner than Bootstrap or Foundation. Most of these frameworks ship with just the right amount of styles and components to help you get started, while allowing you to be able to extend them in the direction you want for your project.
 
@@ -23,7 +27,7 @@ Skeleton provides eventually obtained a face lift. It’s an overall renovation 
 
 ![Zimit]({{ site.img }}20141221-zimit.jpg)
 
-Zimit is a very lightweight HTML5 framework for prototyping responsive web site designs for web developers. It’s based on the LESS CSS pre-processor and provides a framework designed for scalability and code that’s easy to read and understand. It supports all modern web browsers and compiled it’s only 88kb in total file size.
+Zimit is a very lightweight HTML5 framework for prototyping responsive web site designs for web developers. It's based on the LESS CSS pre-processor and provides a framework designed for scalability and code that’s easy to read and understand. It supports all modern web browsers and compiled it’s only 88kb in total file size.
 
 <br>
 

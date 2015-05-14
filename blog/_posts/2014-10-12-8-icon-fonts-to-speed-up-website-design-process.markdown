@@ -2,11 +2,15 @@
 title: "8 Icon Fonts to speed up Website Design Process"
 layout: post
 thumbnail: 20141012-thumbnail
+tags:
+- icon
+- font
+- css
 ---
 
 Icon Fonts are nothing but fonts. But, instead of containing letters or numbers, they contain symbols and shapes. You can style them with CSS in the same way you style regular text which has made them a popular choice on the web in the process designing and developing websites and web applications.
 
-They’re ideal for small, frequently used shapes such as email, envelopes, telephones, widget controls and social media logos. They also work in all modern browser.
+They're ideal for small, frequently used shapes such as email, envelopes, telephones, widget controls and social media logos. They also work in all modern browser.
 
 Here is a list of most popular and easy-to-use icon font sets.
 

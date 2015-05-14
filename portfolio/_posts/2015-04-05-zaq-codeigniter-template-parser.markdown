@@ -5,6 +5,7 @@ topic: "Web Application"
 description: Zaq is a PHP based template parser engine developed to work with Codeigniter. This library has been developed for developers to integrate php codes in views easily. Using this library will also allow the view file to be more readable. View files in Codeigniter (or in any other framework following MVC) always contains both html and php codes which make them a bit harder to read. This problem can be eradicated by using a parser engine which makes the view files a lot more easier to work with.
 thumbnail: zaq-codeigniter-template-parser-thumbnail
 ---
+
 Zaq is a PHP based template parser engine developed to work with Codeigniter. This library has been developed for developers to integrate php codes in views easily. Using this library will also allow the view file to be more readable. View files in Codeigniter (or in any other framework following MVC) always contains both html and php codes which make them a bit harder to read. This problem can be eradicated by using a parser engine which makes the view files a lot more easier to work with.
 
 Codeigniter, by default, comes with an optional template parser. But, unfortunately, that one does not provide sufficient pseudo markup to work with. Zaq, without doubt, is able to provide much more flexibility while building view files with pseudo markup to replace php codes.

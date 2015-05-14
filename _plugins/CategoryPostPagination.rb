@@ -2,6 +2,7 @@ module Jekyll
 
     class PostListingPage < Page
 
+        # initialize
         def initialize(site, total_pages, current_page, current_posts)
             @site = site
             @total_pages = total_pages

@@ -2,6 +2,10 @@
 title: "Category Pagination in Jekyll"
 layout: post
 excerpt: Jekyll has a built-in support for pagination. But it does not paginate the posts in a specific category. In this tutorial, we will discuss on how to paginate a specific category in Jekyll with custom plugin built from scratch.
+tags:
+- jekyll
+- ruby
+- pagination
 ---
 This site is built on Jekyll - a blog aware static site generator. When I was building this, I wanted to separate my blog from my portfolio. Of course I would be using custom post type for my portfolio if I was developing on Wordpress. Here I thought to stay straight and simple and I just created two site categories: portfolio and blog and I am using custom permalink which makes it difficult to use the default pagination setup. And I also want to paginate only the blog category.
 

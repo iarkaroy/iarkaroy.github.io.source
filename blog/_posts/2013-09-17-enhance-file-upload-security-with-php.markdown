@@ -1,6 +1,10 @@
 ---
 title: "Enhance File Upload Security with PHP"
 layout: post
+tags:
+- php
+- security
+- upload
 ---
 We often face a situation where we need to provide our users a way to upload image, pdf, document etc. The basic html form for file upload is able to handle this with the help of PHP. The basic process of uploading user submitted files to the server with PHP is fairly easy and simple. But there should be some security measures. What will happen if a bad user uploads a malicious file to our server?
 

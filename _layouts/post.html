@@ -20,6 +20,14 @@ layout: default
         {{ content }}
     </article>
     
+    <div class="tags">
+    {% if page.tags %}
+        {% for tag in page.tags %}
+        <a href="">{{tag}}</a>
+        {% endfor %}
+    {% endif %}
+    </div>
+    
 </div>
 
 {% include social-share.html %}

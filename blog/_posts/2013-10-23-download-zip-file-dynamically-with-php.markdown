@@ -2,6 +2,7 @@
 title: "Download ZIP File Dynamically with PHP"
 layout: post
 excerpt: We will see how we can make a webpage act as an initializer to download a zip file. We will just provide the location of the file and PHP will download it to the user. In the back-end, the HTTP headers are responsible for the download. We will set the headers with PHP.
+
 ---
 ZIP is a very popular archive file format that supports lossless data compression. A .ZIP file may contain one or more files or folders that may have been compressed. ZIP files are used in almost every downloadable content as it is widely supported by almost all operating systems.
 

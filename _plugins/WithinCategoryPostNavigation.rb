@@ -1,7 +1,8 @@
 module Jekyll
 
     class WithinCategoryPostNavigation < Generator
-
+        
+        # generate
         def generate(site)
             site.categories.each_pair do |category, posts|
                 posts.sort! { |a,b| b <=> a}

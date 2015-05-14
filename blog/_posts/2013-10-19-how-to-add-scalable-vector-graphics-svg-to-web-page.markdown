@@ -1,6 +1,7 @@
 ---
 title: "How to Add Scalable Vector Graphics (SVG) to Web Page"
 layout: post
+
 ---
 Scalable Vector Graphics (SVG) is an XML-based vector image format for two-dimensional graphics with support for interactivity and animation. The SVG specification is an open standard developed by the World Wide Web Consortium (W3C) since 1999. SVG images and their behaviors are defined in XML text files.
 
