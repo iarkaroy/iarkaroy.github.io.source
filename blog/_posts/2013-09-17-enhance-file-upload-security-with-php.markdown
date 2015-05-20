@@ -91,7 +91,7 @@ When setting or specifying a directory to store the uploaded files, it is much p
 
 The directory where the uploaded file will live, must be set writable. In Linux, permission to the folder must be set to at least 755 or 775.
 
-If the files are going to be accessible by public, the directory can be under the root of the server. But if the files are protected or contains sensitive data, then it is much wiser to put the directory outside the scope of the server root so that it cannot be accessible vis public url.
+If the files are going to be accessible by public, the directory can be under the root of the server. But if the files are protected or contains sensitive data, then it is much wiser to put the directory outside the scope of the server root so that it cannot be accessible via public url.
 
 <br>
 

@@ -30,7 +30,11 @@ module Jekyll
 <h1>Blog</h1>
 <h4>Sharing some of my ideas.</h4>
 
-<br><br>
+<br>
+
+{% include search-form.html %}
+
+<br>
 
 {% for post in page.current_posts %}
 <article class="entry post-entry index">

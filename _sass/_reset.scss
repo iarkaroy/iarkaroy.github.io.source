@@ -225,6 +225,11 @@ th {
     -webkit-box-sizing: border-box;
 }
 
+*:active,
+*:focus {
+    outline: 0;
+}
+
 ul,
 ol {
     margin-top: 0;
